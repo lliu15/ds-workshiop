@@ -10,6 +10,7 @@ int main(int argc, char* argv[]) {
     for (int i = 1; i < argc; ++i) {
         int temp = std::atoi(argv[i]);
         intList.push_back(temp);
+        std::cout << "hi" << '\n';
     }
 
     std::list<int>::iterator it = intList.begin();
